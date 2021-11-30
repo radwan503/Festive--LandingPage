@@ -161,8 +161,8 @@ a:hover,
 .hero-banner {
   padding: 50px 0px;
   background-color: #ddd;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 54, 113, 0.9))), url(/img/banner/headphone.jpg);
-  background: linear-gradient(0deg, rgba(32, 54, 113, 0.9)), url(/img/banner/headphone.jpg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 54, 113, 0.9))), url(img/banner/headphone.jpg);
+  background: linear-gradient(0deg, rgba(32, 54, 113, 0.9)), url(img/banner/headphone.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
