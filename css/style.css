@@ -1,0 +1,200 @@
+/*
+  Theme Name: Festive
+  Author: Radwan Ahmed
+  Support: ahmedradwan052@gmail.com 
+  Version: 1.0
+*/
+/* root */
+/* 1. Theme default css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: #2b96cc;
+  text-decoration: none;
+}
+
+/* home-page-banner */
+.hero-banner {
+  padding: 50px 0px;
+  background-color: #ddd;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 54, 113, 0.9))), url(/img/banner/headphone.jpg);
+  background: linear-gradient(0deg, rgba(32, 54, 113, 0.9)), url(/img/banner/headphone.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner .home-page-details .banner-details {
+  margin: 60px;
+}
+
+.hero-banner .home-page-details .banner-details p {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+
+.hero-banner .home-page-details .banner-details h1 {
+  font-size: 7.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffcb27;
+  font-family: "Oswald", sans-serif;
+}
+
+.hero-banner .home-page-details .banner-details h2 {
+  font-size: 4.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
