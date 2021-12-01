@@ -159,7 +159,7 @@ a:hover,
 
 /* home-page-banner */
 .hero-banner {
-  padding: 50px 0px;
+  padding: 3.125rem 0px;
   background-color: #ddd;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(32, 54, 113, 0.9))), url(../img/banner/headphone.jpg);
   background: linear-gradient(0deg, rgba(32, 54, 113, 0.9)), url(../img/banner/headphone.jpg);
@@ -170,13 +170,13 @@ a:hover,
 }
 
 .hero-banner .home-page-details .banner-details {
-  margin: 60px;
+  margin: 3.75rem;
 }
 
 .hero-banner .home-page-details .banner-details p {
   font-size: 2rem;
   font-weight: 100;
-  letter-spacing: .4rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
@@ -196,5 +196,95 @@ a:hover,
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Oswald", sans-serif;
+}
+
+.product-item-group {
+  padding: 6.25rem 0 4rem 0;
+}
+
+.product-item-group .product-item .product-item-details {
+  position: relative;
+  transition: .8s;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  -ms-transition: .8s;
+  -o-transition: .8s;
+}
+
+.product-item-group .product-item .product-item-details .prodict-item-image {
+  height: 21.875rem;
+  width: 100%;
+}
+
+.product-item-group .product-item .product-item-details .image-overlay {
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#203671), to(#ffffff00));
+  background-image: linear-gradient(90deg, #203671 0%, #ffffff00 100%);
+  opacity: 0.5;
+}
+
+.product-item-group .product-item .product-item-details .product-item-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 2rem;
+}
+
+.product-item-group .product-item .product-item-details .product-item-caption h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.product-item-group .product-item .product-item-details .product-item-caption h1 span {
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.product-item-group .product-item .product-item-details:hover .image-overlay {
+  background-image: -webkit-gradient(linear, left top, right top, from(#203671), to(#ffffff00));
+  background-image: linear-gradient(90deg, #203671 0%, #ffffff00 100%);
+  opacity: 1;
+  transition: .8s;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  -ms-transition: .8s;
+  -o-transition: .8s;
+}
+
+.hot-deals .section-header {
+  text-align: center;
+}
+
+.hot-deals .section-header h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  font-family: "Oswald", sans-serif;
+  color: #4260b1;
+  text-transform: uppercase;
+}
+
+.hot-deals .section-header h2 {
+  font-weight: 100;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  font-family: "Oswald", sans-serif;
+  color: #ff6868;
 }
 /*# sourceMappingURL=style.css.map */
