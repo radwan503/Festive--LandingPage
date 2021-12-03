@@ -4,13 +4,13 @@
 
 #Main features:
 
-✔HTML5 & CSS3,Bootstrap
-✔Simple Design
-✔Responsive Design
-✔User Friendly Code
-✔Clean Markup
-✔Cross Browser Support
-✔Bootstrap
-✔Used font awesome icon
+✔HTML5 & CSS3,Bootstrap<br>
+✔Simple Design<br>
+✔Responsive Design<br>
+✔User Friendly Code<br>
+✔Clean Markup<br>
+✔Cross Browser Support<br>
+✔Bootstrap<br>
+✔Used font awesome icon<br>
 
 >Note:Image Collected from Online(Some Idea from Happy Addon).Develop For Personal Practice.
