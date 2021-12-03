@@ -33,8 +33,23 @@
   .hot-deals-section .hot-deal-product-item .figcaption-details-four {
     width: 17.375rem;
   }
-  .btn {
+  .hot-deals-section .btn {
     margin-top: 2rem;
+  }
+  .best-deal-section .product-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .brand-section .brand-details {
+    margin-bottom: 1rem;
+  }
+  .brand-section .card {
+    width: 11.688rem;
+    height: 11.25rem;
+  }
+  .brand-section .card .figure img {
+    width: 8.938rem;
+    height: 5rem;
   }
 }
 

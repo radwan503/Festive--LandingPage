@@ -68,11 +68,36 @@
           width: 17.375rem;
         }
       }
+      .btn{
+        margin-top: 2rem;  
+      }
     }
-    .btn{
-      margin-top: 2rem;  
+
+
+
+    .best-deal-section{
+      .product-card{
+        width: 100%;
+        margin-bottom: 1rem;
+      }
     }
- 
+
+    .brand-section{
+      .brand-details{
+        margin-bottom: 1rem;
+      }
+      .card{
+        width: 11.688rem;
+        height: 11.25rem;
+        .figure{
+          img{
+            width: 8.938rem;
+            height: 5rem;
+    
+          }
+        }
+      }
+    }
 }
  
 /* Large Mobile :480px. */

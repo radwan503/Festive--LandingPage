@@ -474,6 +474,7 @@ a:hover,
   }
 
   .product-card{
+    width: 18rem;
     .offer-badge{
       position: absolute;
       top: 1rem;
@@ -503,3 +504,82 @@ a:hover,
     }
   }
 }
+
+
+.brand-section{
+  margin-top: 6rem;
+
+  .brand-details{
+    h1{
+
+      font-weight: 100;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: .5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-medium-pink;
+
+
+    }
+    h2{
+      font-weight: 700;
+      font-size: 4.5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-blue;
+      text-transform: uppercase;
+
+    }
+
+    p{
+      font-weight: 100;
+      font-size: 1.2rem;
+      font-family: $font-family-oswald;
+      color: $text-color-gray;
+      text-transform: capitalize;
+    }
+  }
+  .card{
+     width: 12.688rem;
+     height: 11.25rem;
+    .figure{
+      img{
+        width: 8.938rem;
+        height: 5rem;
+
+      }
+    }
+  }
+  .card:hover img{
+    transition: .5s;
+    transform:scale(1.1) ;
+    -webkit-transform:scale(1.1) ;
+    -moz-transform:scale(1.1) ;
+    -ms-transform:scale(1.1) ;
+    -o-transform:scale(1.1) ;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+  }
+  
+}
+
+
+#contact-form-footer{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  h3{
+     font-weight: 700;
+      font-size: 2.5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-blue;
+      text-transform: uppercase;
+  }  
+
+  .btn{
+    color: #fff;
+    background: $text-color-blue;
+    border: 2px solid $text-color-blue;
+  }
+}
+
