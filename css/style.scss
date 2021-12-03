@@ -18,7 +18,7 @@ $text-color-black: #020101;
 $text-color-medium-pink: #ff6868;
 
 $color-pink: #ff6f6f;
-$color-medium-purple: rgba(171, 120, 227, 0.85);
+$color-medium-purple: #ab78e3d9;
 $color-medium-blue: #4260b1ba;
 $color-slate-blue: #8a85ff;
 
@@ -159,9 +159,10 @@ body {
 }
 
 a:focus,
-.button:focus {
+.btn:focus {
   text-decoration: none;
   outline: none;
+  box-shadow: none;
 }
 a:focus,
 a:hover,
@@ -215,7 +216,7 @@ a:hover,
 }
 
 .product-item-group {
-  padding: 6.25rem 0 4rem 0;
+ margin-top: 6rem;
   .product-item {
     .product-item-details {
      position: relative;
@@ -277,7 +278,8 @@ a:hover,
 }
 
 
-.hot-deals{
+.hot-deals-section{
+  margin-top: 3rem;
   .section-header{
     text-align: center;
     h1{
@@ -297,5 +299,207 @@ a:hover,
 
     }
 
+  }
+
+  .hot-deal-product-item{
+    .hot-deal-single-item{
+      .hot-deals-image-one{
+        height: 18.75rem;
+        width: 26.875;
+      }
+      .hot-deals-image-two{
+        height: 30.938rem;
+        width: 23.75rem;
+      }
+      .hot-deals-image-three{
+        height: 35.625rem;
+        width: 23.75rem;
+      }
+      .hot-deals-image-four{
+        height: 28.563rem;
+        width: 26.5rem;
+      }
+    }
+
+    .figcaption-details{
+      h1{
+        font-size: 1.12rem;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: $text-color-medium-pink;
+        font-family: $font-family-oswald;
+        
+      }
+      h2{
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $text-color-medium-pink;
+        font-family: $font-family-oswald;
+      }
+    }
+
+    .figcaption-details-one{
+      width: 13.75rem;
+      margin-right: -95px;
+      border: 8px solid $color-pink;
+    }
+    .figcaption-details-two{
+      width: 16.5rem;
+      //margin-right: -95px;
+      color: $text-color-white;
+      background-color: $color-medium-purple;
+      h1{
+        color: $text-color-white;
+      }
+      h2{
+        color: $text-color-white;
+      }
+      
+    }
+
+    .figcaption-details-three{
+      width: 11.75rem;
+      margin-top: 9.375rem;
+      margin-right: -95px;
+      background-color: $color-medium-blue;
+      h1{
+        color: $text-color-white;
+      }
+      h2{
+        color: $text-color-white;
+      }
+    }
+
+    .figcaption-details-four{
+      width: 17.375rem;
+      border: 8px solid $color-medium-blue;
+      h1{
+        color: $color-medium-blue;
+      }
+      h2{
+        color: $color-medium-blue;
+      }
+    }
+  }
+}
+
+
+.offer-banner-section{
+  margin-top: 6rem;
+  padding: 6rem 0 4rem 0;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #3557B1 0%, #203671 100%);
+  .offer-banner-details{
+    h1{
+      font-size: 2rem;
+      font-weight: 800;
+      font-family: $font-family-oswald;
+      color: $text-color-white;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 1rem;
+      font-weight: 500;
+      font-family: $font-family-oswald;
+      color: $text-color-white;
+      text-transform: capitalize;
+    }
+    .divider {
+      height: 30px;
+      margin: 0 25px;
+      width: 1px;
+      background-color: #fff;
+    }
+    
+  }
+  .btn{
+   
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-family: $font-family-oswald;
+
+  }
+
+}
+
+
+.product-about-section{
+  margin-top: 6rem;
+  .section-header{
+    text-align: left;
+    h1{
+      font-weight: 700;
+      font-size: 4.5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-blue;
+      text-transform: uppercase;
+    }
+    h2{
+      font-weight: 100;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: .5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-medium-pink;
+
+    }
+
+  }
+}
+
+.best-deal-section{
+  margin-top: 6rem;
+  padding: 2rem;
+  background-color: $bg-color-medium-white;
+  .section-header{
+    text-align: left;
+    h1{
+      font-weight: 700;
+      font-size: 4.5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-blue;
+      text-transform: uppercase;
+    }
+    h2{
+      font-weight: 100;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: .5rem;
+      font-family: $font-family-oswald;
+      color: $text-color-medium-pink;
+
+    }
+
+  }
+
+  .product-card{
+    .offer-badge{
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .card-body{
+      h5{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #727272;
+        text-transform: capitalize;
+        font-family: $font-family-oswald;
+      }
+      p{
+        font-size: 1rem;
+        font-weight: 500;
+        color: $text-color-yellow;
+        text-transform: capitalize;
+        font-family: $font-family-oswald;
+      }
+    }
+
+    .btn{
+      color: #222;
+      background: $text-color-blue;
+      border: 2px solid $text-color-blue;
+    }
   }
 }

@@ -2,6 +2,42 @@
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
 /* small mobile :320px. */
+@media (max-width: 767px) {
+  .hero-banner .home-page-details .banner-details p {
+    font-size: 1rem;
+  }
+  .hero-banner .home-page-details .banner-details h1 {
+    font-size: 2rem;
+  }
+  .hero-banner .home-page-details .banner-details h2 {
+    font-size: 1.5rem;
+  }
+  .product-item-group {
+    margin-top: 6rem;
+  }
+  .hot-deals-section {
+    margin-top: 3rem;
+  }
+  .hot-deals-section .hot-deal-product-item .hot-deal-single-item .hot-deals-image-one,
+  .hot-deals-section .hot-deal-product-item .hot-deal-single-item .hot-deals-image-two,
+  .hot-deals-section .hot-deal-product-item .hot-deal-single-item .hot-deals-image-three,
+  .hot-deals-section .hot-deal-product-item .hot-deal-single-item .hot-deals-image-four {
+    width: 100%;
+  }
+  .hot-deals-section .hot-deal-product-item .figcaption-details-one {
+    margin-right: 0px;
+  }
+  .hot-deals-section .hot-deal-product-item .figcaption-details-three {
+    margin-right: 0px;
+  }
+  .hot-deals-section .hot-deal-product-item .figcaption-details-four {
+    width: 17.375rem;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+}
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {

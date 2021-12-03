@@ -21,7 +21,57 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+   .hero-banner {
+      .home-page-details {
+        .banner-details {
+          p {
+            font-size: 1rem;
+          }
+    
+          h1 {
+            font-size: 2rem;
+          }
+          h2 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
 
+    .product-item-group {
+      margin-top: 6rem;
+    }
+
+
+    .hot-deals-section{
+      margin-top: 3rem;
+      .hot-deal-product-item{
+        .hot-deal-single-item{
+          .hot-deals-image-one,
+          .hot-deals-image-two,
+          .hot-deals-image-three,
+          .hot-deals-image-four{
+            width: 100%;
+          }
+        }
+  
+        .figcaption-details-one{
+          margin-right: 0px;
+        }
+
+    
+        .figcaption-details-three{
+          margin-right: 0px;
+        }
+    
+        .figcaption-details-four{
+          width: 17.375rem;
+        }
+      }
+    }
+    .btn{
+      margin-top: 2rem;  
+    }
  
 }
  
